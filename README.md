@@ -1,6 +1,6 @@
 # i3-resurrect-cmd
 
-An extension for i3-resurrect that adds functionality for saving and restoring terminal commands.
+An extension for i3-resurrect that adds functionality for setting and restoring terminal commands.
 
 ## Installation
 
@@ -11,7 +11,7 @@ An extension for i3-resurrect that adds functionality for saving and restoring t
 
 ## Usage
 
-- To save a workspace and generate command JSON:
+- To save a workspace and generate a <directory>/workspace_<workspace_number>_cmd_JSON where the commands can be set for each terminal:
   ```
   i3-resurrect-cmd save -w <workspace_number> -d <directory>
   ```
@@ -21,7 +21,7 @@ An extension for i3-resurrect that adds functionality for saving and restoring t
   i3-resurrect-cmd restore -w <workspace_number> -d <directory>
   ```
 
-Replace <workspace_number> with the number of the workspace you want to save/restore, and <directory> with the path where you want to save the files.
+Replace <workspace_number> with the number of the workspace you want to save/restore, and <directory> with the path where you want to save/restore the files.
 
 ## Development
 
@@ -31,3 +31,7 @@ This project uses a Nix shell for development. To enter the development environm
 2. Run `nix-shell` in the project directory.
 
 This will set up all necessary dependencies and create a Python virtual environment.
+
+The next diagram shows the current process, and in soft gray at the bottom the intended addition.
+
+![i3-resurrect-cmd Diagram](contrib/cmd/diagram_cmd.png)
