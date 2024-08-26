@@ -34,4 +34,4 @@ This will set up all necessary dependencies and create a Python virtual environm
 
 The next diagram shows the current process, and in soft gray at the bottom the intended addition.
 
-![i3-resurrect-cmd Diagram](contrib/cmd/diagram_cmd.png)
+![i3-resurrect-cmd Diagram](diagram_cmd.png)
