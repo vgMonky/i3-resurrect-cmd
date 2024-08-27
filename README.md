@@ -2,14 +2,6 @@
 
 An extension for i3-resurrect (https://github.com/JonnyHaystack/i3-resurrect) that adds functionality for setting and restoring terminal commands.
 
-## TODO
-
-- [ ] Fix the `main.py` so that `./restore_cmd.py` only executes after the workspace resurrection is successfully completed.
-- [ ] Find a way to append command strings to the `cmd.json`, e.g., `./append_cmd.py -w X -d Y -index Z <command string>`
-- [ ] `get_last_command.py`
-- [ ] `get_process.py`
-- [ ] `get_command.py` = [ ./get_last_command.py && ./get_process.py ]  
-- [ ] `./save_cmd.py` = [ gen_cmd.py >> get_cmd.py ]
 
 ## Installation
 
@@ -41,6 +33,18 @@ This project uses a Nix shell for development. To enter the development environm
 
 This will set up all necessary dependencies and create a Python virtual environment.
 
+
 The next diagram shows the current process, and in soft gray at the bottom the intended addition.
 
 ![i3-resurrect-cmd Diagram](diagram_cmd.png)
+
+## TODO
+
+- [ ] Fix the `main.py` so that `./restore_cmd.py` only executes after the workspace resurrection is successfully completed.
+- [ ] Find a way to append command strings to the `cmd.json`, e.g., `./append_cmd.py -w X -d Y -index Z <command string>`
+- [ ] `get_last_command.py`
+- [ ] `get_process.py`
+- [ ] `get_command.py` = [ ./get_last_command.py && ./get_process.py ]  
+- [ ] `./save_cmd.py` = [ gen_cmd.py >> get_cmd.py ]
+
+- [ ] Add .i3/config simple examples
