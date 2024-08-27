@@ -1,6 +1,15 @@
 # i3-resurrect-cmd
 
-An extension for i3-resurrect that adds functionality for setting and restoring terminal commands.
+An extension for i3-resurrect (https://github.com/JonnyHaystack/i3-resurrect) that adds functionality for setting and restoring terminal commands.
+
+## TODO
+
+- [ ] Fix the `main.py` so that `./restore_cmd.py` only executes after the workspace resurrection is successfully completed.
+- [ ] Find a way to append command strings to the `cmd.json`, e.g., `./append_cmd.py -w X -d Y -index Z <command string>`
+- [ ] `get_last_command.py`
+- [ ] `get_process.py`
+- [ ] `get_command.py` = [ ./get_last_command.py && ./get_process.py ]  
+- [ ] `./save_cmd.py` = [ gen_cmd.py >> get_cmd.py ]
 
 ## Installation
 
