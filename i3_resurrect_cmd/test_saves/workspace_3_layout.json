@@ -34,66 +34,12 @@
       "marks": [],
       "name": null,
       "orientation": "vertical",
-      "percent": 0.5,
+      "percent": 0.4046511627906977,
       "scratchpad_state": "none",
       "sticky": false,
       "type": "con",
       "workspace_layout": "default",
       "nodes": [
-        {
-          "border": "pixel",
-          "current_border_width": 2,
-          "floating": "auto_off",
-          "fullscreen_mode": 0,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 800,
-            "height": 600
-          },
-          "layout": "splith",
-          "marks": [],
-          "name": "monky@desk: ~",
-          "orientation": "none",
-          "percent": 0.3333333333333333,
-          "scratchpad_state": "none",
-          "sticky": false,
-          "type": "con",
-          "workspace_layout": "default",
-          "swallows": [
-            {
-              "class": "^Alacritty$",
-              "instance": "^Alacritty$"
-            }
-          ]
-        },
-        {
-          "border": "pixel",
-          "current_border_width": 2,
-          "floating": "auto_off",
-          "fullscreen_mode": 0,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 800,
-            "height": 600
-          },
-          "layout": "splith",
-          "marks": [],
-          "name": "monky@desk: ~",
-          "orientation": "none",
-          "percent": 0.3333333333333333,
-          "scratchpad_state": "none",
-          "sticky": false,
-          "type": "con",
-          "workspace_layout": "default",
-          "swallows": [
-            {
-              "class": "^Alacritty$",
-              "instance": "^Alacritty$"
-            }
-          ]
-        },
         {
           "border": "pixel",
           "current_border_width": -1,
@@ -105,11 +51,11 @@
             "width": 0,
             "height": 0
           },
-          "layout": "splith",
+          "layout": "splitv",
           "marks": [],
           "name": null,
-          "orientation": "horizontal",
-          "percent": 0.3333333333333333,
+          "orientation": "vertical",
+          "percent": 1.0,
           "scratchpad_state": "none",
           "sticky": false,
           "type": "con",
@@ -130,7 +76,34 @@
               "marks": [],
               "name": "monky@desk: ~",
               "orientation": "none",
-              "percent": 1.0,
+              "percent": 0.5,
+              "scratchpad_state": "none",
+              "sticky": false,
+              "type": "con",
+              "workspace_layout": "default",
+              "swallows": [
+                {
+                  "class": "^Alacritty$",
+                  "instance": "^Alacritty$"
+                }
+              ]
+            },
+            {
+              "border": "pixel",
+              "current_border_width": 2,
+              "floating": "auto_off",
+              "fullscreen_mode": 0,
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 800,
+                "height": 600
+              },
+              "layout": "splith",
+              "marks": [],
+              "name": "monky@desk: ~",
+              "orientation": "none",
+              "percent": 0.5,
               "scratchpad_state": "none",
               "sticky": false,
               "type": "con",
@@ -157,11 +130,11 @@
         "width": 0,
         "height": 0
       },
-      "layout": "splitv",
+      "layout": "stacked",
       "marks": [],
       "name": null,
       "orientation": "vertical",
-      "percent": 0.5,
+      "percent": 0.5953488372093022,
       "scratchpad_state": "none",
       "sticky": false,
       "type": "con",
@@ -202,12 +175,12 @@
           "geometry": {
             "x": 0,
             "y": 0,
-            "width": 956,
-            "height": 349
+            "width": 800,
+            "height": 600
           },
           "layout": "splith",
           "marks": [],
-          "name": "Mozilla Firefox",
+          "name": "monky@desk: ~",
           "orientation": "none",
           "percent": 0.5,
           "scratchpad_state": "none",
@@ -216,8 +189,8 @@
           "workspace_layout": "default",
           "swallows": [
             {
-              "class": "^firefox$",
-              "instance": "^Navigator$"
+              "class": "^Alacritty$",
+              "instance": "^Alacritty$"
             }
           ]
         }

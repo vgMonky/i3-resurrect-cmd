@@ -22,11 +22,5 @@
       "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
     ],
     "working_directory": "/home/monky"
-  },
-  {
-    "command": [
-      "/nix/store/q8flwbk5f20khbfrwbxdhr85n9zdrpnm-firefox-129.0/lib/firefox/firefox"
-    ],
-    "working_directory": "/home/monky"
   }
 ]
