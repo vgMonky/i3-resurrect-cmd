@@ -42,6 +42,7 @@ The next diagram shows the current process, and in soft gray at the bottom the i
 
 - [ ] Fix the `main.py` so that `./restore_cmd.py` only executes after the workspace resurrection is successfully completed.
 - [ ] Find a way to append command strings to the `cmd.json`, e.g., `./append_cmd.py -w X -d Y -index Z <command string>`
+- [ ] Create `./edit.py -w X -d Y 'cmd1' 'cmd2' ` to fastly push commands to `cmd.json`
 - [ ] `get_last_command.py`
 - [ ] `get_process.py`
 - [ ] `get_command.py` = [ ./get_last_command.py && ./get_process.py ]  
