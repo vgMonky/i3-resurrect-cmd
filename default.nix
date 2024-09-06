@@ -15,7 +15,7 @@ python3Packages.buildPythonApplication rec {
     owner = "vgMonky";
     repo = "i3-resurrect-cmd";
     rev = "v${version}";
-    sha256 = lib.fakeSha256;  # We'll replace this with the actual hash later
+    sha256 = "sha256-fVD7CEKaj864EcsEZ/gWITg9X1JuLQWelJajw0vyFHA="; 
   };
 
   propagatedBuildInputs = with python3Packages; [
