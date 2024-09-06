@@ -4,6 +4,7 @@
 , xdotool
 , xorg
 , i3-resurrect
+, makeWrapper
 }:
 
 python3Packages.buildPythonApplication rec {
@@ -26,10 +27,12 @@ python3Packages.buildPythonApplication rec {
 
   nativeBuildInputs = with python3Packages; [
     setuptools
+    makeWrapper
   ];
 
   postInstall = ''
     wrapProgram $out/bin/i3-resurrect-cmd \
+      --prefix PATH : ${lib.makeBinPath [ xdotool ]} \
       --prefix PYTHONPATH : "$PYTHONPATH:$out/${python3Packages.python.sitePackages}"
   '';
 
