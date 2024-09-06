@@ -24,6 +24,15 @@ python3Packages.buildPythonApplication rec {
     i3-resurrect
   ];
 
+  nativeBuildInputs = with python3Packages; [
+    setuptools
+  ];
+
+  postInstall = ''
+    wrapProgram $out/bin/i3-resurrect-cmd \
+      --prefix PYTHONPATH : "$PYTHONPATH:$out/${python3Packages.python.sitePackages}"
+  '';
+
   meta = with lib; {
     description = "A command-line interface for i3-resurrect";
     homepage = "https://github.com/vgMonky/i3-resurrect-cmd";
