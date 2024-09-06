@@ -1,16 +1,23 @@
 {
   "terminal1": {
     "command": [
-      "/nix/store/sgqh9ylizbyys6pc1f21z5ql3cy1bg3h-alacritty-0.13.2/bin/alacritty"
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
     ],
     "working_directory": "/home/monky",
     "run_in_terminal": "neofetch"
   },
   "terminal2": {
     "command": [
-      "/nix/store/sgqh9ylizbyys6pc1f21z5ql3cy1bg3h-alacritty-0.13.2/bin/alacritty"
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
     ],
     "working_directory": "/home/monky",
     "run_in_terminal": "htop"
+  },
+  "terminal3": {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky",
+    "run_in_terminal": ""
   }
 }

@@ -54,12 +54,12 @@
       "geometry": {
         "x": 0,
         "y": 0,
-        "width": 956,
-        "height": 1055
+        "width": 800,
+        "height": 600
       },
       "layout": "splith",
       "marks": [],
-      "name": "Mozilla Firefox",
+      "name": "monky@desk: ~",
       "orientation": "none",
       "percent": 0.3333333333333333,
       "scratchpad_state": "none",
@@ -68,8 +68,8 @@
       "workspace_layout": "default",
       "swallows": [
         {
-          "class": "^firefox$",
-          "instance": "^Navigator$"
+          "class": "^Alacritty$",
+          "instance": "^Alacritty$"
         }
       ]
     },
